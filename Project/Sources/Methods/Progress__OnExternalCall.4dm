@@ -83,7 +83,7 @@ Else
 			
 		End if 
 		
-		SET WINDOW RECT:C444($x1;$y1;$x2;$y2)
+		SET WINDOW RECT:C444($x1;$y1;$x2;$y2;*)  // * means don't bring to front automatically !
 		
 		  //RESIZE FORM WINDOW($DeltaX;$DeltaY)
 		  //FORM SET VERTICAL RESIZING(False)
